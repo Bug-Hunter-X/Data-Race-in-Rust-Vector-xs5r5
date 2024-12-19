@@ -1,0 +1,1 @@
+This repository contains a Rust program demonstrating a data race with a vector. The bug.rs file contains the buggy code, which modifies a vector using unsafe code without proper synchronization.  The bugSolution.rs file provides a corrected version using a mutex to prevent data races.
